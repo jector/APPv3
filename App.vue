@@ -1,3 +1,7 @@
+<script setup>
+import { RouterLink, RouterView } from 'vue-router'
+</script>
+
 <script>
 import HeadApp from "@/components/HeadApp.vue";
 import FooterApp from "@/components/FooterApp.vue";
@@ -13,7 +17,7 @@ export default {
 
   <head-app></head-app>
 
-  <RouterView />
+  <RouterView  />
 
   <footer-app></footer-app>
 

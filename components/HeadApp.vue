@@ -1,5 +1,8 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
+<script>
+export default {
+  name: "HeadApp",
+}
+
 </script>
 
 <template>
@@ -10,11 +13,13 @@ import { RouterLink, RouterView } from 'vue-router'
                     </a>
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                       <li> <RouterLink class="nav-link px-2 text-secondary" to="/"> Home </RouterLink> </li>
-                      <li> <RouterLink class="nav-link px-2 text-secondary" to="/about"> About </RouterLink> </li>
-                      <!--
+<!--                      <li> <RouterLink class="nav-link px-2 text-secondary" to="/about"> About </RouterLink> </li>-->
+
                       <li> <RouterLink class="nav-link px-2 text-white" to="/product"> Product </RouterLink> </li>
+<!--
                       <li> <RouterLink class="nav-link px-2 text-white" to="/addproduct"> Add Product </RouterLink> </li>
-                      -->
+-->
+
                     </ul>
                     <div class="text-end">
                         <button type="button" class="btn btn-warning">Sign-up</button>
